@@ -7,7 +7,7 @@ const Option = ({ setSubscription }) => {
   };
 
   return (
-    <div>
+    <div className="flex flex-col">
       <label htmlFor="select-subs">Select any subscription:</label>
       <select
         name="select-subs"

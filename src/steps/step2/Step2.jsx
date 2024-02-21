@@ -33,11 +33,9 @@ const Step2 = ({ setStep, setSubscription }) => {
               User Registration Wizard - Step 2
             </h1>
             <div className="selection flex flex-col gap-y-5">
-              {/* Option component for selecting subscription */}
               <Option
                 setSubscription={(subscription) => setSelectedOption(subscription)}
               />
-              {/* Buttons for navigation */}
               <div className="buttons flex gap-x-2">
                 <Button onClick={handlePrevious} value="Previous" />
                 <Button onClick={handleNext} value="Next" />
